@@ -6,7 +6,7 @@ describe('Pruebas de la API REST', () => {
   it('GET /api/health debe retornar estado OK', async () => {
     const res = await request(app).get('/api/health');
     expect(res.statusCode).toEqual(200);
-    expect(res.body).toHaveProperty('status', 'OK - Actualizado en vivo');
+    expect(res.body).toHaveProperty('status', 'OK - Actualizadoenvivo');
   });
 
   it('GET /api/users debe retornar la lista de usuarios', async () => {
