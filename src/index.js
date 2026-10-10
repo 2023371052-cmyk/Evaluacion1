@@ -10,7 +10,7 @@ let users = [
 
 // 1. Endpoint de Salud (Health Check)
 app.get('/api/health', (req, res) => {
-  res.status(200).json({ status: 'OK - Actualizado en vivo', timestamp: new Date() });
+  res.status(200).json({ status: 'OK - Prueba 1000', timestamp: new Date() });
 });
 
 // 2. Obtener todos los usuarios
